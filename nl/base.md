@@ -28,13 +28,30 @@ Written by Michael Linton of <A HREF = "../explore/lcs.html">Landsman Community 
 Compiled 10-01-95 by Andy Blunt and Adrian Steele of <A HREF = "mailto:rsl@letsgo.u-net.com">LETSgo Manchester</A>
 {% endblock compilation_container %}
 
+{% block sources %}
+
 ---
 
-{% block sources %}
+Sources:
+
+* [http://www.gmlets.u-net.com/design/]
+At present, november 2016, this link is broken, but the history of the content can be browsed
+at the [Web Archive Project](https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/).
+* [http://archive.lets.net/gmlet/design/home.html]
+
 {% endblock sources %}
 
 {% block translated_by %}
-Translated by Maarten Vandekeybus <a@martti.be>
+Translation by ...
 {% endblock translated_by %}
 
+{% block hosting %}
+
+---
+
+These pages are hosted from [Github pages](https://github.com/eeemarv/letsystem-design-manual) with [Gitbook](https://www.gitbook.com/).
+If you have any remarks or want to contribute a translation, feel free to search contact through the [Github issues](https://github.com/eeemarv/lm/issues) or make a pull request.
+The original source in html was transformed into the lightweight and easy-to-read [markdown format](https://guides.github.com/features/mastering-markdown/).
+
+{% endblock hosting %}
 
