@@ -11,6 +11,6 @@
      "docs:prepare": "gitbook install",
      "docs:watch": "npm run docs:prepare && gitbook serve",
      "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build",
-     "docs:publish": "npm run docs:build && cd _book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add --all && git commit -am 'Update docs' && git push https://github.com/eeemarv/lm gh-pages --force"
+     "docs:publish": "npm run docs:build && cd _book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add --all && git commit -am 'Update docs' && git push https://github.com/eeemarv/letsystem-design-manual gh-pages --force"
   }
 }
