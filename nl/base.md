@@ -1,5 +1,6 @@
 {% block title_container %}
 <center><h1>{% block title %}Het LETSysteem Ontwerp Handboek{% endblock %}</h1></center>
+<center><p style="color:red;"><b>Translation in progress / Vertaling nog niet voltooid</b></p></center>
 {% endblock title_container %}
 
 {% block page_container %}
@@ -8,6 +9,9 @@
 
 {% block content %}
 {% endblock content %}
+
+{% block notes %}
+{% endblock notes %}
 
 {% block distribution %}
 {% endblock distribution %}

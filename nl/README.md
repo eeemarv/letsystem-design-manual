@@ -2,44 +2,43 @@
 
 {% block chapter_container %}{% endblock %}
 
-{% block page %}Contents Page{% endblock %}
+{% block page %}Inhoud{% endblock %}
 
 {% block content %}
 
-####1. Fundamentals of the LETSystem
+####1. Fundamenten van het LETSysteem
 
-  - 1.1 [The Community Economy](1.1.html)
-  - 1.2 [Currency and Values](1.2.html)
-  - 1.3 [Fundamentals](1.3.html)
-  - 1.4 [Definition and Account Holders Agreements](1.4.html)
+  - 1.1 [Geld en Gemeenschap](1.1.html)
+  - 1.2 [Munteenheid en Waarden](1.2.html)
+  - 1.3 [Fundamenten](1.3.html)
+  - 1.4 [Definitie en Rekeninghouders Overeenkomst](1.4.html)
 
+####2. Registers en multiLETS
 
-####2. Registries and multiLETS
+  - 2.1 [Het Register](2.1.html)
+  - 2.2 [multiLETS - binnen en buiten het Register](2.2.html)
+  - 2.3 [CapitaLETS, LETShare en andere familiale types](2.3.html)
 
-  - 2.1 [The Registry](2.1.html)
-  - 2.2 [multiLETS - within and beyond the Registry](2.2.html)
-  - 2.3 [CapitaLETS, LETShare and other familial types](2.3.html)
+####3. Organisatie en Werking
 
-####3. Organisation and Operations
-
-  - 3.1 [Organisation of the Registry](3.1.html)
-  - 3.2 [Organisation of the LETSystem](3.2.html)
+  - 3.1 [Organisatie van het Register](3.1.html)
+  - 3.2 [Organisatie van het LETSysteem](3.2.html)
   - 3.3 [Software](3.3.html)
 
-####4. [Legal Issues](4.0.html)
+####4. [juridische Kwesties](4.0.html)
 
-  - 4.1 [LETS and Government](4.1.html)
-  - 4.2 [Taxation](4.2.html)
-  - 4.3 [Social Security](4.3.html)
-  - 4.4 [Liability](4.4.html)
-  - 4.5	[Data Protection](4.5.html)
+  - 4.1 [LETS en de overheid](4.1.html)
+  - 4.2 [Belastingen](4.2.html)
+  - 4.3 [Sociale Zekerheid](4.3.html)
+  - 4.4 [Aansprakelijkheid](4.4.html)
+  - 4.5	[Gegevensbescherming](4.5.html)
 
-####5. [System Development](5.0.html)
+####5. [Systeemontwikkeling](5.0.html)
 
-  - 5.1 [Development Strategy](5.1.html)
-  - 5.2 [Regional Development Funding](5.2.html)
-  - 5.3 [Development Organisation](5.3.html)
-  - 5.4 [Regional Development Plan](5.4.html)
+  - 5.1 [Ontwikkelingsstrategie](5.1.html)
+  - 5.2 [Regionale Ontwikkeling Financiering](5.2.html)
+  - 5.3 [Organisatie Ontwikkeling](5.3.html)
+  - 5.4 [Regionaal Ontwikkelingsplan](5.4.html)
 
 ####6. [Landsman Community Services Ltd.](6.0.html)
 

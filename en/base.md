@@ -9,6 +9,9 @@
 {% block content %}
 {% endblock content %}
 
+{% block notes %}
+{% endblock notes %}
+
 {% block distribution %}
 {% endblock distribution %}
 
@@ -34,10 +37,8 @@ Compiled 10-01-95 by Andy Blunt and Adrian Steele of <A HREF = "mailto:rsl@letsg
 
 Sources:
 
-* [http://www.gmlets.u-net.com/design/]
-At present, november 2016, this link is broken, but the history of the content can be browsed
-at the [Web Archive Project](https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/).
-* [http://archive.lets.net/gmlet/design/home.html]
+* http://www.gmlets.u-net.com/design/ broken at present (nov. 2016), but history can be browsed at the [Web Archive Project](https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/).
+* http://archive.lets.net/gmlet/design/home.html
 
 {% endblock sources %}
 
