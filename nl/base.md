@@ -38,10 +38,8 @@ Compiled 10-01-95 by Andy Blunt and Adrian Steele of <A HREF = "mailto:rsl@letsg
 
 Sources:
 
-* [http://www.gmlets.u-net.com/design/]
-At present, november 2016, this link is broken, but the history of the content can be browsed
-at the [Web Archive Project](https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/).
-* [http://archive.lets.net/gmlet/design/home.html]
+* http://www.gmlets.u-net.com/design/ broken at present (nov. 2016), but history can be browsed at the [Web Archive Project](https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/).
+* http://archive.lets.net/gmlet/design/home.html
 
 {% endblock sources %}
 
@@ -54,7 +52,7 @@ Translation by ...
 ---
 
 These pages are hosted from [Github pages](https://github.com/eeemarv/letsystem-design-manual) with [Gitbook](https://www.gitbook.com/).
-If you have any remarks or want to contribute a translation, feel free to search contact through the [Github issues](https://github.com/eeemarv/lm/issues) or make a pull request.
+If you have any remarks or want to contribute a translation, feel free to search contact through the [Github issues](https://github.com/eeemarv/letsystem-design-manual/issues) or make a pull request.
 The original source in html was transformed into the lightweight and easy-to-read [markdown format](https://guides.github.com/features/mastering-markdown/).
 
 {% endblock hosting %}
