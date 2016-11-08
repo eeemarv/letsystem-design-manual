@@ -29,5 +29,3 @@ Het LETSysteem Ontwerp Handboek
   * [5.3 Organisatie Ontwikkeling](5.3.md)
   * [5.4 Regionaal Ontwikkelingsplan](5.4.md)
 * [6. Landsman Community Services Ltd.](6.0.md)
-
-####5. [Systeemontwikkeling](5.0.html)
