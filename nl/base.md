@@ -44,7 +44,7 @@ Sources:
 {% endblock sources %}
 
 {% block translated_by %}
-Translation by ...
+Translation by Maarten Vandekeybus
 {% endblock translated_by %}
 
 {% block hosting %}
