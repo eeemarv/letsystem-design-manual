@@ -1,7 +1,5 @@
 {% extends 'base.md' %}
 
-{% block chapter_container %}{% endblock %}
-
 {% block page %}Inhoud{% endblock %}
 
 {% block content %}
@@ -80,5 +78,3 @@ __Version 1.3 August 1994__
 {% endblock distribution %}
 
 {% block paper %}Contents Page{% endblock %}
-
-

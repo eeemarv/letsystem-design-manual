@@ -1,11 +1,5 @@
-{% block title_container %}
 <center><h1>{% block title %}Het LETSysteem Ontwerp Handboek{% endblock %}</h1></center>
-<center><p style="color:red;"><b>Translation in progress / Vertaling nog niet voltooid</b></p></center>
-{% endblock title_container %}
-
-{% block page_container %}
 <center><h3>{% block page %}Page{% endblock page %}</h3></center>
-{% endblock page_container %}
 
 {% block content %}
 {% endblock content %}
@@ -23,13 +17,13 @@ Landsman Community Services Ltd {% block paper %}Paper No.{% block paper_no %}{%
 {% endblock version %}
 
 {% block author %}
-Written by Michael Linton of <A HREF = "../explore/lcs.html">Landsman Community Services Ltd.</A> and <A HREF = "mailto:rsl@letsgo.u-net.com">Angus Soutar</A> of Robert Soutar Ltd.
+Written by Michael Linton of Landsman Community Services Ltd. and Angus Soutar of Robert Soutar Ltd.
 {% endblock author %}
 
 ---
 
 {% block compilation_container %}
-Compiled 10-01-95 by Andy Blunt and Adrian Steele of <A HREF = "mailto:rsl@letsgo.u-net.com">LETSgo Manchester</A>
+Compiled 10-01-95 by Andy Blunt and Adrian Steele of LETSgo Manchester
 {% endblock compilation_container %}
 
 {% block sources %}
@@ -44,7 +38,7 @@ Sources:
 {% endblock sources %}
 
 {% block translated_by %}
-Translation by Maarten Vandekeybus
+Translated by Maarten Vandekeybus
 {% endblock translated_by %}
 
 {% block hosting %}

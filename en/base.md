@@ -1,10 +1,5 @@
-{% block title_container %}
 <center><h1>{% block title %}The LETSystem Design Manual{% endblock %}</h1></center>
-{% endblock title_container %}
-
-{% block page_container %}
 <center><h3>{% block page %}Page{% endblock page %}</h3></center>
-{% endblock page_container %}
 
 {% block content %}
 {% endblock content %}

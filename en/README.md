@@ -1,7 +1,5 @@
 {% extends 'base.md' %}
 
-{% block chapter_container %}{% endblock %}
-
 {% block page %}Contents Page{% endblock %}
 
 {% block content %}
