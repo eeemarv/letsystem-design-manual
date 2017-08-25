@@ -11,36 +11,37 @@
 {% endblock distribution %}
 
 ---
-
-{% block version %}
-Landsman Community Services Ltd {% block paper %}Paper No.{% block paper_no %}{% endblock %}{% endblock %} Version No 1.3 17 August 94
-{% endblock version %}
-{% block author %}
-
-Written by Michael Linton of Landsman Community Services Ltd. and Angus Soutar of Robert Soutar Ltd.
-{% endblock author %}
-
-{% block compilation_container %}
-Compiled 10-01-95 by Andy Blunt and Adrian Steele of LETSgo Manchester
-{% endblock compilation_container %}
-
-{% block sources %}
+<div class="sm">Landsman Community Services Ltd 
+{% block paper %}Paper No.{% block paper_no %}{% endblock %}{% endblock %} 
+Version No 1.3 17 August 94 <br>
+Written by Michael Linton of Landsman Community Services Ltd. and 
+Angus Soutar of Robert Soutar Ltd. <br>
+Compiled 10-01-95 by Andy Blunt and Adrian Steele of LETSgo Manchester<br>
 Sources:
-* http://www.gmlets.u-net.com/design/ broken at present (nov. 2016), but history can be browsed at the [Web Archive Project](https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/).
-* http://archive.lets.net/gmlet/design/home.html
-{% endblock sources %}
-
-{% block translated_by %}
+<ul>
+<li><a href="http://www.gmlets.u-net.com/design/">
+http://www.gmlets.u-net.com/design/</a> 
+broken at present (nov. 2016), but history can be browsed at the 
+<a href="https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/">
+Web Archive Project</a>.</li>
+<li><a href="http://archive.lets.net/gmlet/design/home.html">
+http://archive.lets.net/gmlet/design/home.html
+</a>
+</ul>
 Translated by Maarten Vandekeybus
-{% endblock translated_by %}
+<br><br>
+These pages are hosted from 
+<a href="https://github.com/eeemarv/letsystem-design-manual">
+Github pages</a> with 
+<a href="https://www.gitbook.com/">Gitbook</a>.
+If you have any remarks or want to contribute a translation, 
+feel free to search contact through the 
+<a href="https://github.com/eeemarv/letsystem-design-manual/issues">
+Github issues</a> 
+or make a pull request.
+The original source in html was transformed into the lightweight and 
+easy-to-read <a href="https://guides.github.com/features/mastering-markdown/">
+markdown format</a>.
+</div>
 
-{% block hosting %}
-
----
-
-These pages are hosted from [Github pages](https://github.com/eeemarv/letsystem-design-manual) with [Gitbook](https://www.gitbook.com/).
-If you have any remarks or want to contribute a translation, feel free to search contact through the [Github issues](https://github.com/eeemarv/letsystem-design-manual/issues) or make a pull request.
-The original source in html was transformed into the lightweight and easy-to-read [markdown format](https://guides.github.com/features/mastering-markdown/).
-
-{% endblock hosting %}
 
