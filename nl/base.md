@@ -28,7 +28,7 @@ Web Archive Project</a>.</li>
 http://archive.lets.net/gmlet/design/home.html
 </a>
 </ul>
-Translated by Maarten Vandekeybus
+Translated from English in Dutch by Maarten Vandekeybus
 <br><br>
 These pages are hosted from 
 <a href="https://github.com/eeemarv/letsystem-design-manual">
