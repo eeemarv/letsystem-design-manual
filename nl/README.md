@@ -23,9 +23,9 @@
   - 3.2 [Organisatie van het LETSysteem](3.2.html)
   - 3.3 [Software](3.3.html)
 
-####4. [juridische Kwesties](4.0.html)
+####4. [Juridische Kwesties](4.0.html)
 
-  - 4.1 [LETS en de overheid](4.1.html)
+  - 4.1 [LETS en de Overheid](4.1.html)
   - 4.2 [Belastingen](4.2.html)
   - 4.3 [Sociale Zekerheid](4.3.html)
   - 4.4 [Aansprakelijkheid](4.4.html)
