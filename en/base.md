@@ -1,5 +1,5 @@
 <center><h1>{% block title %}The LETSystem Design Manual{% endblock %}</h1></center>
-<center><h3>{% block page %}Page{% endblock page %}</h3></center>
+<center><h2>{% block page %}Page{% endblock page %}</h2></center>
 
 {% block content %}
 {% endblock content %}
