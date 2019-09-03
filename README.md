@@ -1,6 +1,6 @@
 
 
-#The LETSystem Design Manual
+# The LETSystem Design Manual
 
 This is a republish and translation in Dutch of Michael Linton's LETSystem Design Manual
 
