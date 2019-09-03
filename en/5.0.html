@@ -1,0 +1,755 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>5. System Development · LETSystem Design Manual</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="5.1.html" />
+    
+    
+    <link rel="prev" href="4.5.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Contents
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1. Fundamentals of the LETSystem
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    1.1 The Community Economy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    1.2 Currency and Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="1.3.html">
+            
+                <a href="1.3.html">
+            
+                    
+                    1.3 Fundamentals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="1.4.html">
+            
+                <a href="1.4.html">
+            
+                    
+                    1.4 Definition and Account Holders Agreements
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2. Registries and multiLETS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="2.1.html">
+            
+                <a href="2.1.html">
+            
+                    
+                    2.1 The Registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="2.2.html">
+            
+                <a href="2.2.html">
+            
+                    
+                    2.2 multiLETS - within and beyond the Registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="2.3.html">
+            
+                <a href="2.3.html">
+            
+                    
+                    2.3 CapitaLETS, LETShare and other familial types
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    3. Organisation and Operations
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="3.1.html">
+            
+                <a href="3.1.html">
+            
+                    
+                    3.1 Organisation of the Registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="3.2.html">
+            
+                <a href="3.2.html">
+            
+                    
+                    3.2 Organisation of the LETSystem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3.3.html">
+            
+                <a href="3.3.html">
+            
+                    
+                    3.3 Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="4.0.html">
+            
+                <a href="4.0.html">
+            
+                    
+                    4. Legal Issues
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="4.1.html">
+            
+                <a href="4.1.html">
+            
+                    
+                    4.1 LETS and Government
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="4.2.html">
+            
+                <a href="4.2.html">
+            
+                    
+                    4.2 Taxation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="4.3.html">
+            
+                <a href="4.3.html">
+            
+                    
+                    4.3 Social Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="4.4.html">
+            
+                <a href="4.4.html">
+            
+                    
+                    4.4 Liability
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="4.5.html">
+            
+                <a href="4.5.html">
+            
+                    
+                    4.5 Data Protection
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="5.0.html">
+            
+                <a href="5.0.html">
+            
+                    
+                    5. System Development
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="5.1.html">
+            
+                <a href="5.1.html">
+            
+                    
+                    5.1 Development Strategy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="5.2.html">
+            
+                <a href="5.2.html">
+            
+                    
+                    5.2 Regional Development Funding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="5.3.html">
+            
+                <a href="5.3.html">
+            
+                    
+                    5.3 Development Organisation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="5.4.html">
+            
+                <a href="5.4.html">
+            
+                    
+                    5.4 Regional Development Plan
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="6.0.html">
+            
+                <a href="6.0.html">
+            
+                    
+                    6. Landsman Community Services Ltd.
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >5. System Development</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <center><h1 id="the-letsystem-design-manual">The LETSystem Design Manual</h1></center>
+<center><h2 id="50-system-development">5.0 System Development</h2></center>
+
+
+
+<p>William Ophuls points out that planning and design both attempt to
+achieve real world outcomes by influencing nature. The subtle but
+important distinction is that:</p>
+<blockquote>
+<p>&quot;planning refers to the attempt to produce the outcome by
+actively managing the process, whereas design refers to the
+attempt to produce the outcome by establishing criteria to
+govern the process so that the desired result will occur
+more or less automatically without further human
+intervention.&quot;</p>
+</blockquote>
+<p><em>Ecology and the Politics of Scarcity, W.H. Freeman &amp; Co.,
+1977 (our emphasis)</em></p>
+<p>The essence of a really good system is that it really develops itself - that
+is, it doesn&apos;t really matter much what you do, this will work out.</p>
+<p>Nonetheless, it will work out better in some ways than others.</p>
+<h4 id="value-in-development">Value in development</h4>
+<p>Good design eliminates the need for development intervention in a system
+once it is in a mature state. However, a small amount of development input
+in the earlier stages can lead to smoother growth and earlier maturity than
+would take place otherwise.</p>
+<p>The value in the development process lies mainly in:</p>
+<ul>
+<li><p>getting things going locally</p>
+</li>
+<li><p>creating an expanded local economic base</p>
+</li>
+<li><p>establishing community loan funds, projects, charities</p>
+</li>
+<li><p>providing direction to others in and outside the community.</p>
+</li>
+</ul>
+<p>Should I get involved in development?</p>
+<p>There is no need to get involved in development unless you feel it is really
+appropriate for you.. If you open a registry, and it is run effectively, it will
+evolve more or less on its own in any case. Either because others will get
+interested, or parallel events in other commmunities will percolate through.</p>
+<p>Furthermore, development work is something of a gamble, in that you are
+paid by results, probably in the course of time, rather than by the hour as
+in running a registry or acting as a recorder.</p>
+<p>It is, above all, a speculative venture and that does not suit everyone.
+Volunteer input is subject to burn-out and is unlikely to be effective. You
+will need some rewards to keep you going and pay the bills. The problem
+is that there is no simple way to charge people for their own money and
+get away with it for long.</p>
+<p>So there is no point unless you are keen. And, as far as we are concerned,
+you should only be keen if you are comfortable that:</p>
+<ul>
+<li><p>businesses will join</p>
+</li>
+<li><p>every business worth considering will be using local money</p>
+</li>
+<li><p>each business will use several systems (typically, business will use a
+minimum of 5 local money accounts).</p>
+</li>
+</ul>
+<p>Ignore the time-scales for now, and think about the implications. It means:</p>
+<ul>
+<li><p>many accounting services will be cheaply available</p>
+</li>
+<li><p>everyone will want this, and it can be made available,</p>
+</li>
+<li><p>so there will be lots of supply, and essentially no market.</p>
+</li>
+</ul>
+<p>Thus there is, in the end, no way to &quot;charge&quot; an entry fee, so:</p>
+<ul>
+<li><p>you cannot expect to finance LETSystem development that way</p>
+</li>
+<li><p>investing energy, or money, in such directions could be costly</p>
+</li>
+<li><p>there is need for care: its like trying to tap into a high tension line to
+power up your computer, or like hanging a bucket in Niagara Falls to
+fill it with water.</p>
+</li>
+</ul>
+<h4 id="contribution-to-community">Contribution to community</h4>
+<p>However, the cost-of-service principle suggests that we can attempt to
+obtain the cost of development from those who receive the benefit. We
+cannot ask for those costs directly, for the reasons outlined above. But
+when businesses want to become involved, they will be prepared to make
+a small monetary contribution if it is used to support the local community.</p>
+<p>This contribution to community can become the customary way to open an
+account. For instance, &#xA3;50 plus &#xA3;50 local would be a small payment for a
+local business to make. This can be established as an acceptable indication
+of commitment to the community which provides the business with a
+market.</p>
+<p>The contribution should be donor directed. Donors can choose a local
+charity, a community project or a loan fund.</p>
+<p>Because these funds are being raised as the result of the existence of a
+LETSystem, it seems fair to ask for a small proportion of the money to be
+allocated to LETSystem development, in the form of a fund-raising fee.
+These fees, when accumulated, should be enough to cover development
+costs. The process is straightforward and is likely to be widely adopted,
+provided that:</p>
+<ul>
+<li><p>it is seen to be a community process, which is</p>
+</li>
+<li><p>ethically and effectively organised, where the</p>
+</li>
+<li><p>focus lies in support for community development.</p>
+</li>
+</ul>
+<h4 id="basic-strategy-for-system-development">Basic strategy for system development</h4>
+<p>We do not have a lot of scope if we are to maintain our ethical approach.
+In essence the requirements are:</p>
+<ul>
+<li><p>a co-ordinated approach</p>
+</li>
+<li><p>working at the appropriate scale - regional clusters of registries, sharing
+successes and benefits</p>
+</li>
+<li><p>separate funding of development and registry operation</p>
+</li>
+<li><p>development funding from &quot;contribution to community&quot;.</p>
+</li>
+</ul>
+<p>Anything outside of this is not recommended. We would be in danger of
+failing to establish an ethical imperative, we could lose the benefits of co-
+operative working and we could get sucked into a trade war with the &quot;get-
+rich-quick&#x201D; brigade. This is why development is not for the faint-hearted.
+It&apos;s uncharted territory, and as the old maps describe it: here be tygers, and
+dragons, and snakes.</p>
+<p>So you may decide that the best place for you is operating a registry and
+there is much good work that you can do. In fact the first thing to do is to
+start a registry and get it going. But alongside that, we can continue to map
+out the development task.</p>
+<hr>
+<div class="sm">Landsman Community Services Ltd
+Paper No.5.0
+Version No 1.3 17 August 94 <br>
+Written by Michael Linton of Landsman Community Services Ltd. and
+Angus Soutar of Robert Soutar Ltd. <br>
+Compiled 10-01-95 by Andy Blunt and Adrian Steele of LETSgo Manchester<br>
+Sources:
+<ul>
+<li><a href="http://www.gmlets.u-net.com/design/" target="_blank">
+http://www.gmlets.u-net.com/design/</a>
+broken at present (nov. 2016), but history can be browsed at the
+<a href="https://web.archive.org/web/20130510203518/http://www.gmlets.u-net.com/design/" target="_blank">
+Web Archive Project</a>.</li>
+<li><a href="http://archive.lets.net/gmlet/design/home.html" target="_blank">
+http://archive.lets.net/gmlet/design/home.html
+</a>
+</li></ul><br>
+These pages are hosted from
+<a href="https://github.com/eeemarv/letsystem-design-manual" target="_blank">
+Github pages</a> with
+<a href="https://www.gitbook.com/" target="_blank">Gitbook</a>.
+If you have any remarks or want to contribute a translation,
+feel free to search contact through the
+<a href="https://github.com/eeemarv/letsystem-design-manual/issues" target="_blank">
+Github issues</a>
+or make a pull request.
+The original source in html was transformed into the lightweight and
+easy-to-read <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">
+markdown format</a>.
+</div>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="4.5.html" class="navigation navigation-prev " aria-label="Previous page: 4.5 Data Protection">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="5.1.html" class="navigation navigation-next " aria-label="Next page: 5.1 Development Strategy">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"5. System Development","level":"1.6","depth":1,"next":{"title":"5.1 Development Strategy","level":"1.6.1","depth":2,"path":"5.1.md","ref":"5.1.md","articles":[]},"previous":{"title":"4.5 Data Protection","level":"1.5.5","depth":2,"path":"4.5.md","ref":"4.5.md","articles":[]},"dir":"ltr"},"config":{"plugins":["language-picker"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"language-picker":{"grid-columns":3},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"LETSystem Design Manual","language":"en","gitbook":"*","description":"LETSystem Design Manual"},"file":{"path":"5.0.md","mtime":"2018-06-14T09:50:49.306Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2019-09-03T08:24:02.347Z"},"basePath":".","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

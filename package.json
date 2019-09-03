@@ -1,0 +1,16 @@
+{
+  "name": "LETSystem-design-manual",
+  "engines": {
+    "node": "^9",
+    "npm": "^5"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2"
+  },
+  "scripts": {
+     "docs:prepare": "gitbook install",
+     "docs:watch": "npm run docs:prepare && gitbook serve",
+     "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build",
+     "docs:publish": "npm run docs:build && cd _book && git init && echo 'base.md' > .gitignore && git commit --allow-empty -m 'update docs' && git checkout -b gh-pages && git add --all && git commit -am 'update docs' && git push https://github.com/eeemarv/letsystem-design-manual gh-pages --force"
+  }
+}
